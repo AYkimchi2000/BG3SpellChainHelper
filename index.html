@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D&D Spell Chain Helper</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>D&D Spell Chain Finder</h1>
+    Insert spell name
+    <input
+      type="text"
+      id="searchBar"
+      placeholder="Search for spells..."
+      oninput="searchSpells()"
+    />
+    Insert ability score abbreviations: str,dex,con,wis,int,char
+    <input
+      type="text"
+      id="searchBarSaveToHit"
+      placeholder="Search by Save to Hit..."
+      oninput="searchSpellsBySaveToHit()"
+    />
+    <div id="dropdown"></div>
+    <h2>Your Prepared Spells:</h2>
+    <ul id="preparedSpells"></ul>
+    <h3>Enemy's Weakest Ability Score:</h3>
+    <input type="text" id="enemyWeakness" />
+    <button onclick="findChains()">Find Spell Chains</button>
+    <h2>Recommended Spell Chains:</h2>
+    <div id="spellChains"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
