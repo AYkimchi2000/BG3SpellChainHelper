@@ -15,9 +15,7 @@ This is a simple static webapp that helps you find spell chains given your prepa
 # Devlog 
 ## Goal features
 
-1.<u> Create a weapon action and spell database with accurate attributes.</u>
-2.Search spell by save 
-3.Search spell display sorted dropdown
-4.Develop and iterate on the underlying algorithm.
-5.Multiple condition combos that makes concentration control spells potentially last longer
-6.Duration
+1. Create a weapon action and spell database with accurate attributes.
+2. Search spell by savetohit
+3. Search spell display sorted dropdow
+4. Explore on Multiple condition combos that makes cc spells potentially last through the whole duration 
