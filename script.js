@@ -1,4 +1,8 @@
 // Pre-defined database of spells
+// Ctrl+f search list:
+// '// Cantrip'
+// '// Level 1 spells'
+// '// Weapon actions'
 const spells = [
   // Cantrips
   {
@@ -590,6 +594,24 @@ const spells = [
     type: 'spell',
     weakensave: 'DEX',
   },
+  
+  //weapon actions/attacks
+  {
+    spellname: 'Hamstring Shot',
+    savetohit: 'CON',
+    condition: 'Hamstrung',
+    weakensave: [''],
+    weapons: ['Shortbows', 'Longbows'],
+  },
+  
+  {
+    spellname: 'PIERCING STRIKE',
+    savetohit: 'CON',
+    condition: 'Gaping Wounds',
+    weakensave: [''],
+    weapons: ['Daggers', 'Rapiers', 'Shortswords', 'Tridents', 'Pikes', 'Javelins'],
+  },
+  
   {
     spellname: 'BACKBREAKER',
     savetohit: 'STR',
